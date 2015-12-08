@@ -1,5 +1,5 @@
 # Single Webview project for xcode in swift
-An xcode project that with single webview that opens external URL, for hybrid web app debug or test use.
+An xcode project that with single webview(UIWebView) that opens external URL, for hybrid web app debug or test use.
 
 - Swift
 - Constrains ready. Fullscreen view with hidden status bar.
