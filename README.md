@@ -17,7 +17,7 @@ Please go to ViewController.swift and change the URL string to your expected URL
 Please go to ViewController.swift, and change the `return true` to `return false` on follow section.
 
 ```swift
-    override func prefersStatusBarHidden() -> Bool {
-        return true // Change 'true' to 'false' here
-    }
+        override func prefersStatusBarHidden() -> Bool {
+                return true // Change 'true' to 'false' here
+        }
 ```
