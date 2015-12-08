@@ -1,4 +1,4 @@
-# xcode-single-webview
+# Single Webview project for xcode in swift
 An xcode project that with single webview that opens external URL, for hybrid web app debug or test use.
 
 - Swift
