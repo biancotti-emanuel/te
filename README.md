@@ -14,7 +14,7 @@ Please go to ViewController.swift and change the URL string to your expected URL
 ```
 
 #### Turn On Status Bar
-Please go to ViewController.swift, and change the `return true` to `return false` on follow section.
+By default, the Status Bar is turned off. you will see the web in fullscreen view. If you want to show the status bar on the webciew. Please go to ViewController.swift, and change the `return true` to `return false` on follow section. As the status bar will overlap your webview, you might want to change the `constant` value for the `Trailing Space To: Superview` in xcode to prevent it effects the webview visual style in some cases.
 
 ```swift
         override func prefersStatusBarHidden() -> Bool {
