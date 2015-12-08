@@ -9,15 +9,15 @@ An xcode project that with single webview that opens external URL, for hybrid we
 #### Customize the URL
 Please go to ViewController.swift and change the URL string to your expected URL.
 
-```
+```swift
         let url = NSURL(string: "http://www.google.com") // Customize your URL here
-
 ```
 
 #### Turn On Status Bar
 Please go to ViewController.swift, and change the `return true` to `return false` on follow section.
 
-```
+```swift
     override func prefersStatusBarHidden() -> Bool {
         return true // Change 'true' to 'false' here
     }
+```
